@@ -1,0 +1,4 @@
+# Project exclude paths
+/github-pluigin-slotManagmentPlugin/.gradle/
+/github-pluigin-slotManagmentPlugin/build/
+/github-pluigin-slotManagmentPlugin/build/classes/java/main/

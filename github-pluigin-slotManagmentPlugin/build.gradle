@@ -1,0 +1,41 @@
+apply plugin: 'java'
+
+group 'net.noyzys.slotmanagement '
+version '2.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    jcenter()
+
+    maven {
+        url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+    }
+
+}
+
+configurations {
+    provided -
+            compile.extendsFrom(provided)
+}
+
+dependencies {
+    compile 'org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT'
+    compile 'org.bukkit:bukkit:1.8.8-R0.1-SNAPSHOT'
+    compile 'org.jetbrains:annotations:17.0.0'
+    compile 'org.apache.logging.log4j:log4j-api:2.9.1'
+    compile 'org.apache.logging.log4j:log4j-core:2.9.1'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'net.noyzys.slotmanagment.SlotManagmentPlugin'
+    }
+    from configurations.provided.asFileTree.files.collect {
+        zipTree(it)
+    }
+}
+
+defaultTasks 'clean', 'build'

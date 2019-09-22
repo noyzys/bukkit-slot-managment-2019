@@ -1,0 +1,13 @@
+name: SlotManagmentPlugin
+main: net.noyzys.slotmanagment.SlotManagmentPlugin
+author: "N0yZyS"
+version: 2.0-SNAPSHOT
+
+commands:
+  slot:
+    aliases: [
+      "sloty",
+      "zarzadzajslotami",
+      "manageslot",
+      "managmentslot"
+    ]

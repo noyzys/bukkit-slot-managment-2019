@@ -1,0 +1,20 @@
+# <-- SlotManagmentPlugin - Plugin na zarządzanie slotami na twój serwer minecraft! -->
+# <-- Oficialnie w wersji: 2.0-SNAPSHOT został poprawiony kod oraz dodano urozmaicenie ;) -->
+# <-- N0YzYs | Proszę nie zmieniajcie autora możecie robić edity, ale autor niech zostanie ;) -->
+# <-- https://github.com/vFeesT/
+plugin_options:
+  enable: "Enable."
+  loading: "Loading..."
+  disable: "Disable."
+
+command_options:
+  permission: "slotmanagment.permission"
+  message: "&cBrak uprawnien."
+  usage: "&aUzycie: /slot <liczba> (Liczba slotow)."
+  it_is_notnumber: "&cTo nie jest liczba! /slot <liczba/slotow>."
+  present_status_slot: "&aAktualny status ustawiony, to: {SLOT}"
+  setslot: "&aPomyslnie ustawiono liczbe slotow na: {SLOT}/{ONLINE}."
+
+listener_options:
+  serverisfull: "[N]&cSerwer jest pelny wpuszczamy falami![N]Wiec mordo mozesz poczekac ;)[N]"
+

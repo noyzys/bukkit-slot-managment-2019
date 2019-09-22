@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HaszumiProject.iml" filepath="$PROJECT_DIR$/HaszumiProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SlotManagementPlugin.iml" filepath="$PROJECT_DIR$/.idea/modules/SlotManagementPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SlotManagementPlugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SlotManagementPlugin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SlotManagementPlugin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SlotManagementPlugin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/menuAPI.main.iml" filepath="$PROJECT_DIR$/.idea/modules/menuAPI.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/menuAPI.test.iml" filepath="$PROJECT_DIR$/.idea/modules/menuAPI.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.noyzys.slotmanagement .SlotManagementPlugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/net.noyzys.slotmanagement .SlotManagementPlugin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.noyzys.slotmanagement .SlotManagementPlugin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/net.noyzys.slotmanagement .SlotManagementPlugin.test.iml" />
+    </modules>
+  </component>
+</project>

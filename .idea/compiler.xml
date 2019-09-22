@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="CorePlugin.main" target="1.8" />
+      <module name="CorePlugin.test" target="1.8" />
+      <module name="menuAPI.main" target="1.8" />
+      <module name="menuAPI.test" target="1.8" />
+      <module name="net.noyzys.haszumi.menu.menuAPI.main" target="1.8" />
+      <module name="net.noyzys.haszumi.menu.menuAPI.test" target="1.8" />
+      <module name="net.noyzys.slotmanagement .SlotManagementPlugin.main" target="1.8" />
+      <module name="net.noyzys.slotmanagement .SlotManagementPlugin.test" target="1.8" />
+      <module name="SlotManagementPlugin.main" target="1.8" />
+      <module name="SlotManagementPlugin.test" target="1.8" />
+      <module name="TestPlugin.main" target="1.8" />
+      <module name="TestPlugin.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
